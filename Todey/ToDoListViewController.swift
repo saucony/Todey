@@ -19,7 +19,7 @@ class ToDoListViewController: UITableViewController {
         // Do any additional setup after loading the view.
         
         if let items = defaults.array(forKey: "TodoListArray") as? [String] {
-            itemArray = items
+            itemArray = items 
         }
     }
 
